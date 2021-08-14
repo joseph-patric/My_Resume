@@ -1,11 +1,18 @@
 .strip-1{
     background-color: rgb(8, 15, 83);
-    height: 30px;
+    /* height: 30px; */
+    padding-top: 7px;
 
 }
 
-.skills .col-3{
+.skills div{
     background-color: green;
     border-radius: 5px;
     color: white;
+    width: -moz-fit-content;
+    width: fit-content;
+    block-size: fit-content;
+    padding-left: 7px;
+    padding-right: 7px;
+    white-space: nowrap;
 }
